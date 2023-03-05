@@ -1,0 +1,337 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Varela Round', sans-serif;
+    
+}
+/* html,body{
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+} */
+
+.navbar img{
+    width:8rem;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding-top:50px;
+    align-items: center;
+}
+.leftNav{
+    display: flex;
+    padding-left: 170px;
+    align-items: center;
+}
+.navbar ul{
+    list-style: none;
+
+    
+}
+.navbar li{
+    display: inline-block;
+    /* padding-left: 3rem; */
+    padding-top: 20px;
+}
+.login{
+    padding-right: 300px;
+}
+.login button{
+    padding: 5px 25px;
+    border-radius: 20px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+.login a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+.start{
+    background-image: url("Task Design_/blue_bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 117vh;
+}
+.head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 100px;
+    padding-left: 70px;
+    
+    
+}
+.head .right{
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-image: url("Task Design_/landing_bg.png");
+    background-size: 800px;
+    padding-right: 400px;
+    padding-bottom: 400px;
+}  
+.right img{
+    position: relative;
+    height: 500px;
+    padding-left: 200px;
+}
+.cloud{
+    position: absolute;
+    right: 490px;
+    bottom: 150px;
+    width: 300px;
+    height: 150px;
+
+}
+.wave{
+    position: absolute;
+    bottom: -100px;
+    right: 450px;
+}
+
+.head .left{
+padding-left: 150px;
+padding-bottom: 150px;
+}
+h1{
+    text-transform: capitalize;
+    font-size: 70px;
+    font-weight: 600;
+}
+.start p{
+    width: 75%;
+    font-size: 30px;
+    font-weight: 100;
+
+}
+.head span{
+    color: #96318D;
+}
+.middle{
+    position: relative;
+    height: 100vh;
+    
+}
+.bee{
+
+left: 400px;
+top: 50px;
+    position:absolute;
+}
+.middle .first{
+    width: 40%;
+    position: absolute;
+    left: 15%;
+    top: 15%;
+    
+}
+.first h3{
+    padding-left: 40px;
+}
+.sec h3{
+    padding-left: 40px;
+}
+.third h3{
+    padding-left: 100px;
+}
+.middle  p{
+    font-size: 20px;
+    width: 40%;
+    text-align: justify;
+    text-align-last: center;
+}
+.middle .sec{
+    width:40%;
+    position:absolute;
+    right: 16%;
+    top: 33%;
+}
+.middle .third{
+    width: 35%; 
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.middle .four img{
+    position: absolute;
+    width: 25%;
+    bottom: -50px;
+    left: 5%;
+}
+.four span{
+    position: relative;
+    top: 730px;
+    left: 230px;
+    display: flex;
+    
+
+}
+.why{
+font-size: 20px;
+    color: white;
+
+}
+.kudzoka{
+    font-size: 70px;
+    color: white;
+}
+.last{
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.last .cent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.cent span{
+    text-transform: capitalize;
+    font-size: 30px;
+}
+.cent p{
+    width: 40%;
+    text-align-last: center;
+}
+footer{
+    height: 100%;
+    width: 100%;
+
+}
+/* footer img{
+    width: 40%;
+    left: 0;
+} */
+.container{
+    width: 100%;
+    height: 90%;
+    /* background-image: url("Task Design_/Group 1131.png") ;
+    background-position: center;
+    background-size: 115% 130%; */
+    position: relative;
+    display: flex;
+    bottom: -30%;
+}
+img.humans{
+    position: absolute;
+    bottom: 20%;
+    right: 5%;
+    width: 40%;
+    height: 700px;
+}
+.left-footer{
+    position: absolute;
+    display: flex;
+    top: 50%;
+    width: 46%;
+    height: 30%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.leftcont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 410px;
+
+}
+.apple{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 0 solid;
+    border-radius: 13px;
+    margin: 10px;
+    background-color: white;
+    width: 150px;
+    height: 60px;
+
+}
+.downloads{
+    width: auto;
+    height: auto;
+    display: flex;
+    margin-bottom: 5%;
+}
+.applelogo{
+    display: flex;
+    justify-content: center;
+    width: 18%;
+    height: 55%;
+    
+    border: 0 solid;
+}
+
+.downloadtext{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.socialicon{
+    display: flex;
+}
+.leftcont ul{
+    list-style: none;
+
+    
+}
+.leftcont li{
+    display: inline-block;
+    padding-left: 3rem;
+    padding-top: 20px;
+}
+.socialicon img{
+    padding-left: 10px;
+}
+.sora img{
+    margin-top: -300px;
+    margin-left: -93px;
+  
+}
+ .sora{
+    width: 100%;
+    height: 90%;
+  
+ }
+.navbar ul li a{
+	text-decoration: none;
+	color: rgb(8, 8, 8);
+	text-transform: capitalize;
+}
+.navbar ul li::after{
+	content: "";
+	height: 3px;
+	width: 0;
+	background: #96318D;
+	position:absolute;
+	left: 0;
+	bottom: -10px;
+	transition: 0.5s;
+
+}
+.navbar ul li:hover::after{
+	width: 100%;
+}
+.navbar ul li{
+	list-style: none;
+	display: inline-block;
+	margin: 0 20px;
+	position: relative;
+
+
+}
